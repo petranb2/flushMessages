@@ -1,0 +1,19 @@
+{
+  "name": "flushSystem",
+  "version": "1.0.0",
+  "description": "Custom Middlewware to send flush messages",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Petros Koulianos",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,11 @@
+<!-- Messages Partial Template -->
+<div class="">
+    <% if(messages.length > 0){ %>
+    <% messages.forEach(function(value) {%>
+    <div class="alert alert-danger alert-dismissible" role="alert">
+        <span class="close" onclick="this.parentElement.style.display='none';">&times;</span>
+        <h5><%= value%></h5>
+    </div>
+    <%})%>
+    <% } %>
+</div>

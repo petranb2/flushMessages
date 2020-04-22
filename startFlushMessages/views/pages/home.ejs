@@ -1,0 +1,26 @@
+<%- include('../template/head')-%>
+
+<body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+        </header>
+        <main role="main" class="inner cover">
+            <form method="POST" action="/">
+                <div class="form-group">
+                    <label><h3>Enter your message</h3></label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" name="message" placeholder="Enter your alert message"
+                            aria-label="Alert message" aria-describedby="button-addon2" >
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-danger" type="button" id="button-addon2">send</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+        </main>
+        <%- include('../template/footer')-%>
+    </div>
+</body>
+
+</html>
